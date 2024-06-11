@@ -1,1 +1,2 @@
 nginx:latest    uhub.service.ucloud.cn/proxy-app/nginx:latest
+quay.io/jetstack/cert-manager-controller:v1.12.4    uhub.service.ucloud.cn/proxy-app/cert-manager-controller:v1.12.4
