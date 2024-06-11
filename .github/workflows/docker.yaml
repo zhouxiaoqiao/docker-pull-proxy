@@ -24,7 +24,9 @@ jobs:
 
       - name: Build and push image to ACR EE
         run: |
+          echo ${DOCKER_REGISTRY}
           docker login -u $DOCKER_REGISTRY_USER -p $DOCKER_REGISTRY_PASSWORD $DOCKER_REGISTRY
+          
           # docker pull
           cat trigger.txt |awk '{print "docker pull "$1} '
           cat trigger.txt |awk '{print "docker pull "$1} '| sh
