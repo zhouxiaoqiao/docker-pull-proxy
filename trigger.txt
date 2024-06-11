@@ -1,1 +1,1 @@
-nginx:latest    uhub.service.ucloud.cn/proxy-app:nginx-latest
+nginx:latest    uhub.service.ucloud.cn/proxy-app/nginx:latest
